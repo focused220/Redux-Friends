@@ -28,7 +28,7 @@ export const login = creds => dispatch => {
         });
       })
       .catch(err => {
-        console.log(err);
+        console.log(err); 
         if (err.response.status === 403) {
           localStorage.removeItem("token");
         }
