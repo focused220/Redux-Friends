@@ -11,7 +11,6 @@ const PrivateRoute = ({ component: FriendsPage, ...rest }) => {
           if (localStorage.getItem("token")) {
             return <FriendsPage />;
           } else {
-            console.log("redirecting!!!!");
             return <Redirect to="/login" />;
           }
         }}
