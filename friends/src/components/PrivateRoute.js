@@ -17,6 +17,6 @@ const PrivateRoute = ({ component: FriendsPage, ...rest }) => {
         }}
       />
     );  
-};
+};      
 
 export default PrivateRoute;
